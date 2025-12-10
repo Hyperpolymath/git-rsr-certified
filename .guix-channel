@@ -1,0 +1,7 @@
+;; git-rsr-certified - Guix Channel
+;; Add to ~/.config/guix/channels.scm
+
+(channel
+ (version 0)
+ (url "https://github.com/hyperpolymath/git-rsr-certified")
+ (branch "main"))
