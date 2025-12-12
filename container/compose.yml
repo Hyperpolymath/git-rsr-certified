@@ -32,7 +32,7 @@ services:
       - RSR_SURREALDB_URL=ws://surrealdb:8000
       - RSR_SURREALDB_NS=rsr
       - RSR_SURREALDB_DB=compliance
-      - RSR_ARANGODB_URL=http://arangodb:8529
+      - RSR_ARANGODB_URL=https://arangodb:8529
       - RSR_ARANGODB_DB=rsr_graphs
       # Platform credentials (set via .env file)
       - GITHUB_APP_ID=${GITHUB_APP_ID:-}
@@ -79,7 +79,7 @@ services:
       - RSR_SURREALDB_URL=ws://surrealdb:8000
       - RSR_SURREALDB_NS=rsr
       - RSR_SURREALDB_DB=compliance
-      - RSR_ARANGODB_URL=http://arangodb:8529
+      - RSR_ARANGODB_URL=https://arangodb:8529
       - RSR_ARANGODB_DB=rsr_graphs
       - GITHUB_TOKEN=${GITHUB_TOKEN:-}
       - GITLAB_TOKEN=${GITLAB_TOKEN:-}
@@ -188,7 +188,7 @@ services:
       - RSR_SURREALDB_DB=compliance
       - RSR_SURREALDB_USER=root
       - RSR_SURREALDB_PASS=${SURREALDB_ROOT_PASSWORD:-changeme}
-      - RSR_ARANGODB_URL=http://arangodb:8529
+      - RSR_ARANGODB_URL=https://arangodb:8529
       - RSR_ARANGODB_DB=rsr_graphs
       - RSR_ARANGODB_USER=root
       - RSR_ARANGODB_PASS=${ARANGODB_ROOT_PASSWORD:-changeme}

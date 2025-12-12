@@ -276,7 +276,7 @@ fn generate_badge_svg(tier: &CertificationTier, _style: &str) -> String {
     let label = tier.code();
 
     format!(
-        r##"<svg xmlns="http://www.w3.org/2000/svg" width="120" height="20">
+        r##"<svg xmlns="https://www.w3.org/2000/svg" width="120" height="20">
 <linearGradient id="b" x2="0" y2="100%">
 <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
 <stop offset="1" stop-opacity=".1"/>
